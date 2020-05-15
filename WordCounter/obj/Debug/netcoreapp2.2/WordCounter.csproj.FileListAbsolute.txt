@@ -1,0 +1,11 @@
+C:\Users\Steven\Desktop\epi\c#\RepeatCounter.Solutions\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.csprojAssemblyReference.cache
+C:\Users\Steven\Desktop\epi\c#\RepeatCounter.Solutions\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Desktop\epi\c#\RepeatCounter.Solutions\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.AssemblyInfoInputs.cache
+C:\Users\Steven\Desktop\epi\c#\RepeatCounter.Solutions\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.AssemblyInfo.cs
+C:\Users\Steven\Desktop\epi\c#\RepeatCounter.Solutions\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.deps.json
+C:\Users\Steven\Desktop\epi\c#\RepeatCounter.Solutions\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.json
+C:\Users\Steven\Desktop\epi\c#\RepeatCounter.Solutions\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.dev.json
+C:\Users\Steven\Desktop\epi\c#\RepeatCounter.Solutions\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.dll
+C:\Users\Steven\Desktop\epi\c#\RepeatCounter.Solutions\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.pdb
+C:\Users\Steven\Desktop\epi\c#\RepeatCounter.Solutions\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.dll
+C:\Users\Steven\Desktop\epi\c#\RepeatCounter.Solutions\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.pdb
