@@ -17,8 +17,11 @@
 
 
 ## Specs
-1. User input: cat and user sentence: "cat cat cat ||| Output: 3
-2. User input: dog and user sentence: "I walk the dog" ||| Output 1  
+| Spec | Input | OutPut |
+|:----------- | :-----------------| :---------------|
+| Count is one | Input: "cat" and Sentence: "cat" | Output: 1 |
+| Lower/Uppcase doesnt matter | Snput: "dog" Sentence: "DoG" | Output 1 
+| Count is 0 | Input : "A" and Sentence: "P" | Output 0
 
 
 ## Known Bugs
