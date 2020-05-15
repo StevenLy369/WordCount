@@ -22,6 +22,7 @@
 | Count is one | Input: "cat" and Sentence: "cat" | Output: 1 |
 | Lower/Uppcase doesnt matter | Snput: "dog" Sentence: "DoG" | Output 1 
 | Count is 0 | Input : "A" and Sentence: "P" | Output 0
+| Ignores punctuation | Input: cat and Sentence: OMG LOOK ITS A CAT! | Output 1
 
 
 ## Known Bugs
