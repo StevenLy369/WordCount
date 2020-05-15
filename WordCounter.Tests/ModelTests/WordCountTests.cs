@@ -19,7 +19,7 @@ namespace WordCount.TestTools
 
           public void WordCount_GetCount_Count1()
           {
-              WordCounter newWordCount = new WordCounter("charlie", "charlie charlie ! wow");
+              WordCounter newWordCount = new WordCounter("charlie", "charlie charlie ! wow heya wow thats so cool bro");
               int count = newWordCount.GetCount();
               Assert.AreEqual(2,count);
           }
@@ -46,6 +46,14 @@ namespace WordCount.TestTools
               WordCounter newWordCount = new WordCounter("wow", "pow");
               int count = newWordCount.GetCount();
               Assert.AreEqual(0,count);
+          }
+
+            [TestMethod]
+             public void WordCount_NoMatch_Count3()
+          {
+              WordCounter newWordCount = new WordCounter("wow", "wow ! @ # $ % #$# wow wow pow fsdfsdf xcvnxm ewrew sf sd 8297349");
+              int count = newWordCount.GetCount();
+              Assert.AreEqual(3,count);
           }
     }
 }

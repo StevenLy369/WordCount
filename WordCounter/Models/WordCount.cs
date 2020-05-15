@@ -15,7 +15,6 @@ namespace WordCount.Models
         }
 
 
-
         public int GetCount()
         {
 
@@ -32,7 +31,6 @@ namespace WordCount.Models
                 {
                     count +=0;
                 }
-
             }
             return count;
         }
