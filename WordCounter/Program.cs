@@ -17,8 +17,10 @@ namespace WordCountGame
 
             WordCounter newWordCounter = new WordCounter(input, sentence);
             int count = newWordCounter.GetCount();
+            Console.WriteLine("*******************************************************************");
             Console.WriteLine("Your word " + input + " Has showed up " + count + " in your sentence");
             Console.WriteLine("Your sentence was: " + sentence);
+            Console.WriteLine("*******************************************************************");
         }
     }
 }
