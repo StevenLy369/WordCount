@@ -17,10 +17,15 @@ namespace WordCount.Models
 
         public int GetCount()
         {
-
+            
             string[] array = Sentence.Split(" ");
             int count = 0;
-            
+            while(array[i].EndsWith(",") || array[i].EndsWith(".") || array[i].EndsWith("?") || array[i].EndsWith("!")|| array[i].EndsWith(";")|| array[i].EndsWith(":"))
+            {
+
+                array[i] = array[i].Remove(array[i].Length -1 );
+
+            }
             for (int i = 0; i < array.Length; i++)
             {
                 if (Input == array[i])
