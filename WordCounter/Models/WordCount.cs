@@ -20,13 +20,15 @@ namespace WordCount.Models
             
             string[] array = Sentence.Split(" ");
             int count = 0;
+            
+            for (int i = 0; i < array.Length; i++)
+            {
             while(array[i].EndsWith(",") || array[i].EndsWith(".") || array[i].EndsWith("?") || array[i].EndsWith("!")|| array[i].EndsWith(";")|| array[i].EndsWith(":"))
             {
 
                 array[i] = array[i].Remove(array[i].Length -1 );
 
             }
-            for (int i = 0; i < array.Length; i++)
             {
                 if (Input == array[i])
                 {
@@ -37,7 +39,9 @@ namespace WordCount.Models
                     count +=0;
                 }
             }
-            return count;
+            
         }
+        return count;
     }
+  }
 }

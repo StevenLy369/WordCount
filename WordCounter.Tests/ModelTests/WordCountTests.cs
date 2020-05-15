@@ -55,5 +55,13 @@ namespace WordCount.TestTools
               int count = newWordCount.GetCount();
               Assert.AreEqual(3,count);
           }
+
+           [TestMethod]
+             public void WordCount_RemovePunctuation_Count1()
+          {
+              WordCounter newWordCount = new WordCounter("wow", "wow!");
+              int count = newWordCount.GetCount();
+              Assert.AreEqual(1,count);
+          }
     }
 }
