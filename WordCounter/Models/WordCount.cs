@@ -19,23 +19,22 @@ namespace WordCount.Models
         public int GetCount()
         {
 
-            List<string> wordList = new List<string> {};
+            string[] array = Sentence.Split(" ");
             int count = 0;
-            wordList.Add(Sentence);
-            foreach (string word in wordList)
+            
+            for (int i = 0; i < array.Length; i++)
             {
-                if (word == Input)
+                if (Input == array[i])
                 {
                     count++;
                 }
                 else
                 {
-                    count += 0;
+                    count +=0;
                 }
+
             }
-
             return count;
-
         }
     }
 }

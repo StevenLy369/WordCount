@@ -19,33 +19,33 @@ namespace WordCount.TestTools
 
           public void WordCount_GetCount_Count1()
           {
-              WordCounter newWordCount = new WordCounter("charlie", "charlie charlie");
+              WordCounter newWordCount = new WordCounter("charlie", "charlie charlie ! wow");
+              int count = newWordCount.GetCount();
+              Assert.AreEqual(2,count);
+          }
+
+           [TestMethod]
+
+          public void WordCount_SentenceToLower_Count1()
+          {
+              WordCounter newWordCount = new WordCounter("charlie", "Charlie");
+              int count = newWordCount.GetCount();
+              Assert.AreEqual(1,count);
+          }
+             [TestMethod]
+             public void WordCount_InputToLower_Count1()
+          {
+              WordCounter newWordCount = new WordCounter("ChArlIE", "charlie");
+              int count = newWordCount.GetCount();
+              Assert.AreEqual(1,count);
+          }
+
+             [TestMethod]
+             public void WordCount_NoMatch_Count0()
+          {
+              WordCounter newWordCount = new WordCounter("wow", "pow");
               int count = newWordCount.GetCount();
               Assert.AreEqual(0,count);
           }
-
-          [TestMethod]
-
-         public void WordCount_SentenceToLower_Count1()
-         {
-             WordCounter newWordCount = new WordCounter("charlie", "Charlie");
-             int count = newWordCount.GetCount();
-             Assert.AreEqual(1,count);
-         }
-            [TestMethod]
-            public void WordCount_InputToLower_Count1()
-         {
-             WordCounter newWordCount = new WordCounter("ChArlIE", "charlie");
-             int count = newWordCount.GetCount();
-             Assert.AreEqual(1,count);
-         }
-
-            [TestMethod]
-            public void WordCount_NoMatch_Count0()
-         {
-             WordCounter newWordCount = new WordCounter("wow", "pow");
-             int count = newWordCount.GetCount();
-             Assert.AreEqual(0,count);
-         }
     }
 }
