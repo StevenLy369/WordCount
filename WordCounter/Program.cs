@@ -4,7 +4,7 @@ using WordCount.Models;
 
 
 
-namespace WordCountGame
+namespace WordCount.Models
 {
     public class Program
     {

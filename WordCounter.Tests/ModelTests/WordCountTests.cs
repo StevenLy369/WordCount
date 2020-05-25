@@ -1,11 +1,20 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WordCount.Models;
 
-namespace WordCount.TestTools
+namespace WordCount.Test
 {
     [TestClass]
     public class WordCountTests
     {
+
+        [TestMethod]
+        public void WordConstructor_CreatesInstanceOf_Word()
+        {
+            WordCounter newWord = new WordCounter("wow", "wow wow");
+            
+            Assert.AreEqual(typeof(WordCounter), newWord.GetType());
+
+        }
         [TestMethod]
 
         public void GetCount_WordCount_Count1()
